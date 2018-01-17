@@ -74,7 +74,7 @@ namespace {
 
 void AmericanOptionTest::testBaroneAdesiWhaleyValues() {
 
-    BOOST_TEST_MESSAGE("Testing Barone-Adesi and Whaley approximation "
+    BOOST_TEST_MESSAGE("Testing Barone-Adesi and Whaley approx imation "
                        "for American options...");
 
     /* The data below are from
