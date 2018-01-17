@@ -74,8 +74,11 @@ namespace {
 
 void AmericanOptionTest::testBaroneAdesiWhaleyValues() {
 
-    BOOST_TEST_MESSAGE("Testing Barone-Adesi and Whaley approx imation "
+    BOOST_TEST_MESSAGE("Testing Barone-Adesi and Whaley approximation "
                        "for American options...");
+  
+    BOOST_TEST_MESSAGE("Testing Barone-Adesi and Whaley approximation "
+                       "for Indian options...");
 
     /* The data below are from
        "Option pricing formulas", E.G. Haug, McGraw-Hill 1998
