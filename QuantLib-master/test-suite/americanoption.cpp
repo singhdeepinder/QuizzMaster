@@ -6,8 +6,7 @@
  
  Copyright (C) 2005 Joseph Wang
 
- This file is part of QuantLib, a free-software/open-source
- library
+ This file is part of QuantLib, a free-software/open-source library
  for financial quantitative analysts and developers - http://quantlib.org/
 
  QuantLib is free software: you can redistribute it and/or modify it
