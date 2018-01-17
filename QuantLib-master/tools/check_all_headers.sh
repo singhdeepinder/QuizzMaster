@@ -5,5 +5,5 @@
 find ./ql -name *.hpp \
 | grep -v '/all\.hpp$' | grep -v '/auto_link\.hpp$' \
 | grep -v 'config' | grep -v '/mathconstants\.hpp$'\
-| sort | xargs -n 1 ./tools/check_header.
+| sort | xargs -n 1 ./tools/check_header
 
