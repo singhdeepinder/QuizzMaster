@@ -130,6 +130,7 @@ int main(int, char* []) {
         theBskt->setLossModel(lmGLHP);
 
         std::cout << "GLHP Expected 10-Yr Losses: "  << std::endl;
+        std::cout << "Gaussian Binomial THIS IS  NEW CODE: "  << std::endl;
         std::cout << theBskt->expectedTrancheLoss(calcDate) << std::endl;
 
         // --- G Binomial model --------------------
