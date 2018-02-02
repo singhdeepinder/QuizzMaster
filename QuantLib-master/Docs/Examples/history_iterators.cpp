@@ -26,6 +26,7 @@ bool lessthan(const History::Entry& i, const History::Entry& j) {
     return i.value() < j.value();
 }
 
+
 History::const_valid_iterator min =
     std::min_element(h.vbegin(),h.vend(),lessthan);
 cout << "Minimum value: " << min->value()
