@@ -11,6 +11,7 @@ cout << "Std. deviation:  " << s.standardDeviation() << endl;
 
 
 // Another possibility: print out the maximum value.
+Histrical
 
 
 
