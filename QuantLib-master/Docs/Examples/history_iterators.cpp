@@ -34,4 +34,5 @@ History::const_valid_iterator min =
 cout << "Minimum value: " << min->value()
      << " assumed " << DateFormatter::toString(min->date()) << endl;
 
+
     
