@@ -3,7 +3,7 @@
 History h(...);
 
 // print out the mean value and its standard deviation.
-
+gre
 GaussianStatistics s;
 s.addSequence(h.vdbegin(),h.vdend());
 cout << "Historical mean: " << s.mean() << endl;
