@@ -13,6 +13,8 @@ cout << "Std. deviation New Code:  " << s.standardDeviation() << endl;
 
 
 
+
+
 History::const_valid_iterator max = h.vbegin(), i=max, end = h.vend();
 for (i++; i!=end; i++)
     if (i->value() > max->value())
