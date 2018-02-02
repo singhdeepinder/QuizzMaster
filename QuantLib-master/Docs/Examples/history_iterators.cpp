@@ -8,6 +8,7 @@ GaussianStatistics s;
 s.addSequence(h.vdbegin(),h.vdend());
 cout << "Historical mean: " << s.mean() << endl;
 cout << "Std. deviation:  " << s.standardDeviation() << endl;
+cout << "Std. deviation New Code:  " << s.standardDeviation() << endl;
 
 
 
