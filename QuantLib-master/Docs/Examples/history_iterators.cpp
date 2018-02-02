@@ -20,6 +20,8 @@ cout << "Maximum value:  " << max->value()
      << " assumed " << DateFormatter::toString(max->date()) << endl;
 
 
+
+
 // or the minimum, this time the STL way:
 
 bool lessthan(const History::Entry& i, const History::Entry& j) {
