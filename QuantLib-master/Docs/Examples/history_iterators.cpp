@@ -10,6 +10,8 @@ cout << "Historical mean: " << s.mean() << endl;
 cout << "Std. deviation:  " << s.standardDeviation() << endl;
 cout << "Std. deviation New Code  " << s.standardDeviation() << endl;
 
+cout << "For Demo to Dell  " << s.standardDeviation() << endl;
+
 
 // Another possibility: print out the maximum value.
 History::const_valid_iterator max = h.vbegin(), i=max, end = h.vend();
