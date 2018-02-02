@@ -71,6 +71,7 @@ int main(int, char* []) {
         Settings::instance().evaluationDate() = todaysDate;
 
 
+     
         /* --------------------------------------------------------------
                         SET UP BASKET PORTFOLIO
         -------------------------------------------------------------- */
