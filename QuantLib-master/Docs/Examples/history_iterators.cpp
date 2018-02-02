@@ -10,7 +10,6 @@ cout << "Historical mean: " << s.mean() << endl;
 cout << "Std. deviation:  " << s.standardDeviation() << endl;
 cout << "Std. deviation New Code:  " << s.standardDeviation() << endl;
 // Another possibility: print out the maximum value.
-Histrical
 
 
 
