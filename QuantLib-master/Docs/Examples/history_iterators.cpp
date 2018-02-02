@@ -15,7 +15,7 @@ History::const_valid_iterator max = h.vbegin(), i=max, end = h.vend();
 for (i++; i!=end; i++)
     if (i->value() > max->value())
         max = i;
-cout << "Maximum value: " << max->value()
+cout << "Maximum value:  " << max->value()
      << " assumed " << DateFormatter::toString(max->date()) << endl;
 
 // or the minimum, this time the STL way:
