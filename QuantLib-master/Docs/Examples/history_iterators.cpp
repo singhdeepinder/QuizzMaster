@@ -23,6 +23,7 @@ cout << "Maximum value:  " << max->value()
 
 // or the minimum, this time the STL way:
 
+
 bool lessthan(const History::Entry& i, const History::Entry& j) {
     return i.value() < j.value();
 }
