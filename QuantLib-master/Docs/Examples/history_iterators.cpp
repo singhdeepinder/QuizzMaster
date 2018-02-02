@@ -8,9 +8,8 @@ GaussianStatistics s;
 s.addSequence(h.vdbegin(),h.vdend());
 cout << "Historical mean: " << s.mean() << endl;
 cout << "Std. deviation:  " << s.standardDeviation() << endl;
-cout << "Std. deviation New Code:  " << s.standardDeviation() << endl;
 
-cout << "Historical mean New Code: " << s.mean() << endl;
+
 // Another possibility: print out the maximum value.
 History::const_valid_iterator max = h.vbegin(), i=max, end = h.vend();
 for (i++; i!=end; i++)
