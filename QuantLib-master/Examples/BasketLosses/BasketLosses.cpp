@@ -137,6 +137,8 @@ int main(int, char* []) {
         std::cout << "GLHP Expected 10-Yr Losses: "  << std::endl;
         std::cout << "Gaussian Binomial THIS IS  NEW CODE: "  << std::endl;
      std::cout << "Gaussian Binomial THIS IS  NEW CODE3: "  << std::endl;
+     
+     std::cout << "Gaussian Binomial THIS IS  NEW CODE XXXXXX  NetApp331: "  << std::endl;
         std::cout << theBskt->expectedTrancheLoss(calcDate) << std::endl;
 
         // --- G Binomial model --------------------
